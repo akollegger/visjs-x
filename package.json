@@ -1,0 +1,25 @@
+{
+  "name": "visjs-x",
+  "version": "1.0.0",
+  "description": "Experiments with visjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "author": "Andreas Kollegger",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "most": "^1.2.2",
+    "vis": "^4.19.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-regenerator": "^6.22.0",
+    "babel-preset-env": "^1.2.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
