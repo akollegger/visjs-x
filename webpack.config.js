@@ -6,8 +6,7 @@ module.exports = {
     ],
     output: {
         filename: 'arrow-clock.js',
-        path: path.resolve(__dirname, 'dist'),
-        publicPath: '/dist/'
+        path: path.resolve(__dirname, 'demos/script/')
     },
     module: {
         rules: [
@@ -19,8 +18,7 @@ module.exports = {
         ]
     },
     devServer: {
-        contentBase: path.join(__dirname, "demos"),
-        publicPath: '/dist/'
+      contentBase: path.join(__dirname, "demos"),
     }
 
 };
